@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(237, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0;
+}
+h1{
+    text-align: center;
+    color: rgb(80, 97, 179);
+}
+.card{
+    width: 300px;
+    /* height: 230px; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgba(202, 202, 202, 0.204);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: -1px 1px 6px -1px rgba(162,160,160,0.59);
+-webkit-box-shadow: -1px 1px 6px -1px rgba(162,160,160,0.59);
+-moz-box-shadow: -1px 1px 6px -1px rgba(162,160,160,0.59);
+}
+input, #create, #search-button{
+    font-size: 25px;
+    width: 280px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(73, 73, 73);
+    background-color: rgb(239, 239, 239);
+    padding: 5px 0;
+}
+#create:hover{
+    background-color: gray;
+    color: rgb(223, 223, 223);
+}
+input::placeholder{
+    padding-left: 10px;
+}
+#user-section{
+    margin-top: 30px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.user-card{
+    width: 600px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(73, 73, 73);
+    background-color: rgba(231, 231, 231, 0.441);
+    box-shadow: -1px 1px 6px -1px rgba(162,160,160,0.59);
+-webkit-box-shadow: -1px 1px 6px -1px rgba(162,160,160,0.59);
+-moz-box-shadow: -1px 1px 6px -1px rgba(162,160,160,0.59);
+}
+p{
+    width: 100px;
+    text-align: center;
+}
+.delete-user-btn, .edit-user-btn{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(174, 174, 174);
+    background-color: rgb(210, 210, 210);
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+}
+input{
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+.pag-div{
+    width: 300px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-pgn{
+    margin: 0 15px;
+    font-size: 20px;
+    border: none;
+}
+.btn-pgn:hover{
+    color: rgb(80, 97, 179);
+}
+label{
+    width: 200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+}
+#sort-by-name, #sort-by-age{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
